@@ -4,11 +4,11 @@ export default function About() {
     return (
         <main class="flex justify-center items-center h-screen text-gray-600">
             <div class="mb016 mx-8 text-center">
-                <span class="block text-3xl font-demi-bold font-mono my-3">the third floor</span>
-                <p class="text-md text-center font-mono max-w-md">this adventure was developed as a professional development day project using <a class="underline" href='deno.land/'>deno</a> and <a class="underline" href='fresh.deno.dev/'>fresh</a>. do your best to escape the AU!
+                <p class="block text-3xl font-demi-bold font-mono my-3">the third floor</p>
+                <p class="text-md text-left font-mono max-w-md">this adventure was developed as a professional development day project using <a class="underline" href='deno.land/'>deno</a> and <a class="underline" href='fresh.deno.dev/'>fresh</a>. do your best to escape the AU basement and retreat to the safety of the Pocket Prep office!
                 </p>
-                <a href="/">
-                    <span class="border-2 border-solid rounded-full p-3 hover:bg-blue-200 inline-block">🏠</span>
+                <a class="text-center" href="/">
+                    <span class="border-2 border-solid rounded-lg p-3 hover:bg-blue-200 inline-block">🏠</span>
                 </a>
             </div>
             <div class="flex items-center">

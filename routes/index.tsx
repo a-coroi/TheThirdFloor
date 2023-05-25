@@ -1,5 +1,3 @@
-import Counter from "../islands/Counter.tsx";
-
 export default function Home() {
   return (
     <main class="flex justify-center items-center h-screen text-gray-600">
@@ -9,7 +7,10 @@ export default function Home() {
               <span class="font-mono border-2 border-solid rounded-lg p-3 mx-3 hover:bg-green-200">embark</span>
             </a>
             <a href="/about">
-              <span class="font-mono border-2 border-solid rounded-lg p-3 hover:bg-blue-200">about</span>
+              <span class="font-mono border-2 border-solid rounded-lg p-3 mx-3 hover:bg-blue-200">about</span>
+            </a>
+            <a href="/about">
+              <span class="font-mono border-2 border-solid rounded-lg p-3 mx-3 hover:bg-blue-200">🌙</span>
             </a>
         </div>
         <div class="flex items-center my-3">

@@ -1,7 +1,7 @@
 import { useState } from "preact/hooks"
 import Phase from "../components/Phase.tsx"
 
-const initialMessage = 'you awaken inside a strange metal box. the smell of iron and stale doughnuts draws your attention to the double doors. to the right of the doors, you notice a button that is highlighted in red - the letter B gently blinks. you notice an unopened can of grapefruit spindrift in the corner - who knows when that was left there?'
+const initialMessage = 'you awaken inside a strange metal box. the smell of iron and stale doughnuts draws your attention to the double doors. to the right of the doors, you notice a button that is highlighted in red - the letter B gently blinks. you see an unopened can of grapefruit spindrift in the corner - who knows when that was left there?'
 
 const getPhaseMessage = (possibleMessages: string[]) => {
   const nmi = Math.floor(Math.random() * possibleMessages.length)

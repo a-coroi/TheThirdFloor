@@ -1,9 +1,5 @@
 import Prompt from "../islands/Prompt.tsx"
 import Inventory from "../islands/Inventory.tsx"
-import Phase from "../components/Phase.tsx"
-
-let itemToAdd = 'can of spindrift'
-
 
 export default function Adventure() {
     
@@ -13,9 +9,7 @@ export default function Adventure() {
                 <Prompt />
             </div>
             <div class="flex items-center text-gray-600 w-1/4">
-                <Inventory
-                    itemName='hi'
-                />
+                <Inventory />
             </div>
         </main>
     )

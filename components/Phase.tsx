@@ -4,7 +4,7 @@ import { signal } from "@preact/signals"
 const Phase = signal({
     stage: 0,
     isItemAvailable: true,
-    item: ''
+    item: 'can of spindrift'
 })
 
 export default Phase
